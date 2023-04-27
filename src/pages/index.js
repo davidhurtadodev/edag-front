@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Inter } from 'next/font/google';
@@ -5,6 +6,7 @@ import Card from '@/components/Card';
 import Grid from '@/components/Grid';
 import { fetchTeamsAsync } from '@/store/teamsSlice';
 import { fetchPlayersAsync } from '@/store/playersSlice';
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -21,6 +23,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
+
         <Grid>
           {teams
             ? teams.map((team) => {
@@ -35,6 +38,7 @@ export default function Home() {
               })
             : null}
         </Grid>
+
       </Layout>
     </div>
   );

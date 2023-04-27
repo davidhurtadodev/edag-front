@@ -25,3 +25,32 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+
+.btn-type{
+  margin: 0.3rem;
+  width: 108px;
+  height: 41px;
+  
+  
+border: solid 1px rgb(54, 62, 78) ;
+  border-radius: 67px;
+  }
+
+  .btn-type-active{
+    margin: 0.3rem;
+    width: 108px;
+    height: 41px;
+    color: white;
+    
+    background: rgb(54, 62, 78);
+    border-radius: 67px;
+    
+}
+
+.title-squad{
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: rgb(54, 62, 78);
+}
