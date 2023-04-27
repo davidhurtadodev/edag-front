@@ -1,18 +1,23 @@
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { Inter } from "next/font/google";
-import { Card } from "@/components/Card";
-import { Grid } from "@/components/Grid";
+import Card from "@/components/Card";
+import Grid from "@/components/Grid";
+import { fetchTeamsAsync } from "@/store/teamsSlice";
 
 const inter = Inter({ subsets: ["latin"] });
 
 import { Layout } from "@/components/Layout";
-import { TeamCard } from "@/components/TeamCard";
 
 export default function Home() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchTeamsAsync());
+  });
   return (
     <div>
       <Layout>
-        <Card />
-        <TeamCard />
+        <Grid></Grid>
       </Layout>
     </div>
   );
