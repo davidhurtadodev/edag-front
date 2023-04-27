@@ -38,7 +38,10 @@ export default function Home() {
               })
             : null}
         </Grid>
+<<<<<<< HEAD
 
+=======
+>>>>>>> eli
       </Layout>
     </div>
   );
