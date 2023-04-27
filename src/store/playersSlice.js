@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import teamsService from '@/lib/services/teamsService';
+import playersService from '@/lib/services/playersService';
 // Initial state
 
 const initialState = {
@@ -8,36 +8,36 @@ const initialState = {
 };
 
 // Fetching thunk
-export const fetchTeamsAsync = createAsyncThunk(
-  'teams/fetchTeams',
+export const fetchPlayersAsync = createAsyncThunk(
+  'players/fetchPlayers',
   async () => {
-    const data = await teamsService.getData();
-    console.log(data);
+    const data = await playersService.getData();
+
     return data;
   }
 );
 
-export const teamsSlice = createSlice({
-  name: 'teams',
+export const playersSlice = createSlice({
+  name: 'players',
   initialState,
   reducers: {},
   extraReducers: (builder) => {
     builder
       //cases for fetching recipes
-      .addCase(fetchTeamsAsync.pending, (state) => {
+      .addCase(fetchPlayersAsync.pending, (state) => {
         state.status = 'loading';
       })
-      .addCase(fetchTeamsAsync.fulfilled, (state, action) => {
+      .addCase(fetchPlayersAsync.fulfilled, (state, action) => {
         state.status = 'idle';
 
         const data = action.payload;
 
         state.value = data;
       })
-      .addCase(fetchTeamsAsync.rejected, (state, action) => {
+      .addCase(fetchPlayersAsync.rejected, (state, action) => {
         state.status = 'failed';
       });
   },
 });
 
-export default teamsSlice.reducer;
+export default playersSlice.reducer;

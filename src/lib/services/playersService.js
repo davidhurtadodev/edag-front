@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:3000/teams';
+const baseUrl = 'http://localhost:3000/players';
 
 const getData = async () => {
   try {
