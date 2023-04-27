@@ -41,9 +41,9 @@ export const TeamCard = ({ squad }) => {
         </button>
       </div>
 
-      {selectedType === "General" && <DataSquad />}
-      {selectedType === "Estadisticas" && <Estadisticas />}
-      {selectedType === "Liga" && <Liga />}
+      {selectedType === "General" && <DataSquad squad={squad} />}
+      {selectedType === "Estadisticas" && <Estadisticas squad={squad} />}
+      {selectedType === "Liga" && <Liga squad={squad} />}
 
       <TablePlayers />
     </div>
