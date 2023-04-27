@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import Card from "@/components/Card";
 import Grid from "@/components/Grid";
 import { fetchTeamsAsync } from "@/store/teamsSlice";
+import { TeamCard } from "@/components/TeamCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
+        <TeamCard></TeamCard>
         <Grid></Grid>
       </Layout>
     </div>
