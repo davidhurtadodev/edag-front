@@ -5,7 +5,7 @@ const getData = async () => {
     const response = await fetch(baseUrl);
 
     const jsonData = await response.json();
-    console.log(jsonData);
+
     return jsonData;
   } catch (err) {
     console.error(err);

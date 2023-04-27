@@ -11,8 +11,9 @@ const initialState = {
 export const fetchTeamsAsync = createAsyncThunk(
   'teams/fetchTeams',
   async () => {
-    const { results } = await teamsService.getData();
-    return results;
+    const data = await teamsService.getData();
+    console.log(data);
+    return data;
   }
 );
 
@@ -28,6 +29,7 @@ export const teamsSlice = createSlice({
       })
       .addCase(fetchTeamsAsync.fulfilled, (state, action) => {
         state.status = 'idle';
+
         const data = action.payload;
 
         state.value = data;
