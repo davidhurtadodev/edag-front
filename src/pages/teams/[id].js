@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import { useSelector } from 'react-redux';
+import { TeamCard } from '@/components/TeamCard';
 
 export default function TeamsPage() {
   //Get id of the recipe
@@ -9,4 +10,6 @@ export default function TeamsPage() {
 
   const selectedTeam = teams.find((team) => team.squad_id === id);
   console.log(selectedTeam);
+
+  return <TeamCard squad={selectedTeam} />;
 }
