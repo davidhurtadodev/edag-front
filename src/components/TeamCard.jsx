@@ -3,7 +3,7 @@ import { TeamsContext } from "../context/SquadContext";
 
 export const TeamCard = () => {
   const teams = useContext(TeamsContext);
-
   console.log(teams, "teams");
-  return <div>hola</div>;
+
+  return <div>Teams data: {JSON.stringify(teams)}</div>;
 };

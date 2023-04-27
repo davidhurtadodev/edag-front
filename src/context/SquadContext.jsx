@@ -9,10 +9,10 @@ const TeamsContextProvider = ({ children }) => {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:3000/teams")
+      .get("http://localhost:3000/teams") // Cambia la URL según la ubicación de tu archivo JSON Server
       .then((response) => {
-        setTeams(response);
-        console.log(teams, "teams");
+        setTeams(response.data);
+        console.log(response.data, "teams");
       })
       .catch((error) => {
         setError(error);
@@ -20,7 +20,9 @@ const TeamsContextProvider = ({ children }) => {
   }, []);
 
   return (
-    <TeamsContext.Provider value={{ teams }}>{children}</TeamsContext.Provider>
+    <TeamsContext.Provider value={{ teams, error }}>
+      {children}
+    </TeamsContext.Provider>
   );
 };
 
