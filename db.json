@@ -1,66 +1,166 @@
 {
   "teams": [
-    { "squad_id": "aa11fb42", "squad": "Alavés" },
-    { "squad_id": "e9fecaf2", "squad": "Alhama" },
-    { "squad_id": "94929c05", "squad": "Athletic Club" },
-    { "squad_id": "b56c2667", "squad": "Atlético Madrid" },
-    { "squad_id": "15f49df1", "squad": "Barcelona" },
-    { "squad_id": "0f4738a8", "squad": "Levante" },
-    { "squad_id": "753b93a5", "squad": "Levante Planas" },
-    { "squad_id": "89818574", "squad": "Madrid CFF" },
-    { "squad_id": "74142337", "squad": "Real Betis" },
-    { "squad_id": "54582b93", "squad": "Real Madrid" },
-    { "squad_id": "c21f25d3", "squad": "Real Sociedad" },
-    { "squad_id": "215d9026", "squad": "Sevilla" },
-    { "squad_id": "27acb0af", "squad": "Sporting Huelva" },
-    { "squad_id": "4c088abe", "squad": "UDG Tenerife" },
-    { "squad_id": "f96ff499", "squad": "Valencia" },
-    { "squad_id": "7a7bef84", "squad": "Villarreal" },
-    { "squad_id": "411b1108", "squad": "Arsenal" },
-    { "squad_id": "53157aa8", "squad": "Aston Villa" },
-    { "squad_id": "fa2752bc", "squad": "Brighton" },
-    { "squad_id": "a6a4e67d", "squad": "Chelsea" },
-    { "squad_id": "c4989550", "squad": "Everton" },
-    { "squad_id": "23bce84e", "squad": "Leicester City WFC" },
-    { "squad_id": "00f74a56", "squad": "Liverpool" },
-    { "squad_id": "9ce68f8a", "squad": "Manchester City" },
-    { "squad_id": "0bbd83f6", "squad": "Manchester Utd" },
-    { "squad_id": "5d020380", "squad": "Reading" },
-    { "squad_id": "e8e4577c", "squad": "Tottenham" },
-    { "squad_id": "52d65cea", "squad": "West Ham" },
-    { "squad_id": "69dee2b0", "squad": "Bordeaux" },
-    { "squad_id": "68f9fd31", "squad": "Dijon" },
-    { "squad_id": "4fcc2996", "squad": "Fleury" },
-    { "squad_id": "abc4f6d7", "squad": "Guingamp" },
-    { "squad_id": "c57b7254", "squad": "Le Havre" },
-    { "squad_id": "7f2012ad", "squad": "Lyon" },
-    { "squad_id": "7bbdea71", "squad": "Montpellier" },
-    { "squad_id": "28d9b675", "squad": "Paris FC" },
-    { "squad_id": "80595417", "squad": "Paris S-G" },
-    { "squad_id": "700c41b4", "squad": "Rodez" },
-    { "squad_id": "b54d31b3", "squad": "Soyaux" },
-    { "squad_id": "e3696882", "squad": "Stade de Reims" },
-    { "squad_id": "51ec22be", "squad": "Bayern Munich" },
-    { "squad_id": "97b7c0e8", "squad": "E. Frankfurt" },
-    { "squad_id": "becc1dd0", "squad": "Essen" },
-    { "squad_id": "b4de690d", "squad": "Freiburg" },
-    { "squad_id": "87705c62", "squad": "Hoffenheim" },
-    { "squad_id": "88ddc98e", "squad": "Köln" },
-    { "squad_id": "c6d4860a", "squad": "Leverkusen" },
-    { "squad_id": "0580d9a9", "squad": "MSV Duisburg" },
-    { "squad_id": "4ed1418c", "squad": "SV Meppen" },
-    { "squad_id": "de550500", "squad": "Turbine Potsdam" },
-    { "squad_id": "7adbf480", "squad": "Werder Bremen" },
-    { "squad_id": "a1393014", "squad": "Wolfsburg" },
-    { "squad_id": "54da9a57", "squad": "AC Milan" },
-    { "squad_id": "02f8d026", "squad": "AS Roma" },
-    { "squad_id": "9f18ced7", "squad": "ASD Calcio Pomigliano" },
-    { "squad_id": "756c9acb", "squad": "FC Como Women" },
-    { "squad_id": "c99ff6e5", "squad": "Fiorentina" },
-    { "squad_id": "06d05f19", "squad": "Internazionale" },
-    { "squad_id": "613577b8", "squad": "Juventus" },
-    { "squad_id": "f7d05cb5", "squad": "Parma Calcio 1913" },
-    { "squad_id": "a8e83f23", "squad": "Sassuolo" },
-    { "squad_id": "58e367c3", "squad": "UC Sampdoria" }
+    {
+      "squad_id": "aa11fb42",
+      "squad": "Alavés",
+      "url_imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-4ZCpQ-X1C84fInPr6n6CT0tYvFPvyFhe-PLAWL3XkOf3RXN4GEVvtHmhRauOwOfuP0&usqp=CAU"
+    },
+    {
+      "squad_id": "e9fecaf2",
+      "squad": "Alhama",
+      "url_imagen": "https://1.bp.blogspot.com/-lFabe6aeWd4/X-6HCsArJcI/AAAAAAAAFDA/PVuAyVCwRe8pvlP6hktOaO7pDwsYw3y8wCLcBGAsYHQ/s2048/alhamacf.png"
+    },
+    {
+      "squad_id": "94929c05",
+      "squad": "Athletic Club",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/6d/fe/athletic-club-la-liga_f9cv6dl680v11cfr56kwikyfi.jpg?t=-2107144639&quality=60&w=1220"
+    },
+    {
+      "squad_id": "b56c2667",
+      "squad": "Atlético Madrid",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/12/b9/atletico-de-madrid-la-liga_h6wph8budj2u1ixc7ij0ttord.jpg?t=-2107144639&quality=60&w=1220"
+    },
+    {
+      "squad_id": "15f49df1",
+      "squad": "Barcelona",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/b8/37/fc-barcelona-la-liga_1jxdxq19a7z4i1mdvawqvnk2js.jpg?t=-2107146871&quality=60&w=1220"
+    },
+    {
+      "squad_id": "0f4738a8",
+      "squad": "Levante",
+      "url_imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fresultados.as.com%2Fresultados%2Fficha%2Fequipo%2Flevante%2F136%2F&psig=AOvVaw1BSksxKk8_GqQpxtN3WDi0&ust=1682678988053000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIiQ1-zxyf4CFQAAAAAdAAAAABAE"
+    },
+    {
+      "squad_id": "753b93a5",
+      "squad": "Levante Planas",
+      "url_imagen": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffclevantelasplanas.es%2F&psig=AOvVaw2CoD14-2kX4Hc1TrEnVDiD&ust=1682679004972000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOjJy_Txyf4CFQAAAAAdAAAAABAE"
+    },
+    {
+      "squad_id": "89818574",
+      "squad": "Madrid CFF",
+      "url_imagen": "https://madridcff.com/wp-content/uploads/2021/11/Escudo-660-660.png"
+    },
+    {
+      "squad_id": "74142337",
+      "squad": "Real Betis",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/19/a7/real-betis-la-liga_1uphjaxgy5qoe1e1zw0br2xfu3.jpg?t=-2107145639&quality=60&w=1220"
+    },
+    {
+      "squad_id": "54582b93",
+      "squad": "Real Madrid",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/51/f/real-madrid-la-liga_bigwp0fbntif1tq2zkqit1kwv.jpg?t=-2107148871&quality=60&w=1220"
+    },
+    {
+      "squad_id": "c21f25d3",
+      "squad": "Real Sociedad",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/85/e1/real-sociedad-la-liga_2bpxopvvcbyv1fq2w3r1e5qad.jpg?t=-2107149871&quality=60&w=1220"
+    },
+    {
+      "squad_id": "215d9026",
+      "squad": "Sevilla",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/ac/bf/sevilla-la-liga_1lfxc6fbl9u1h1mn6htlg44v9i.jpg?t=-2107150871&quality=60&w=1220"
+    },
+    {
+      "squad_id": "27acb0af",
+      "squad": "Sporting Huelva",
+      "url_imagen": "https://pbs.twimg.com/profile_images/876151457619300352/fBU-3TvI_400x400.jpg"
+    },
+    {
+      "squad_id": "4c088abe",
+      "squad": "UDG Tenerife",
+      "url_imagen": "https://media.classora.com/files/uploads/images/topics/21/14660/main.jpg"
+    },
+    {
+      "squad_id": "f96ff499",
+      "squad": "Valencia",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/46/4b/valencia-la-liga_18fyjfv89rshc1dtd9ll00mnr5.jpg?t=-2107150871&quality=60&w=1220"
+    },
+    {
+      "squad_id": "7a7bef84",
+      "squad": "Villarreal",
+      "url_imagen": "https://images.daznservices.com/di/library/DAZN_News/b/60/villarreal-la-liga_qyfbfnhgx4hf1jvft8jw53jl3.jpg?t=-2107152127&quality=60&w=1220"
+    },
+    {
+      "squad_id": "411b1108",
+      "squad": "Arsenal",
+      "url_imagen": "https://cdnb.20m.es/sites/30/2017/07/dddArsenal_FC.jpg"
+    },
+    {
+      "squad_id": "53157aa8",
+      "squad": "Aston Villa",
+      "url_imagen": "https://es.wikipedia.org/wiki/Aston_Villa_Football_Club#/media/Archivo:Aston-villa-football-club-vector-logo.png"
+    },
+    {
+      "squad_id": "fa2752bc",
+      "squad": "Brighton",
+      "url_imagen": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Brighton_%26_Hove_Albion_logo.svg/1200px-Brighton_%26_Hove_Albion_logo.svg.png"
+    },
+    {
+      "squad_id": "a6a4e67d",
+      "squad": "Chelsea",
+      "url_imagen": "https://img.chelseafc.com/image/upload/v1666011045/Site%20Chelsea%20Badges/Main_Website_Badge_-_Club_Chelsea.png"
+    },
+    { "squad_id": "c4989550", "squad": "Everton", "url_imagen": "null" },
+    {
+      "squad_id": "23bce84e",
+      "squad": "Leicester City WFC",
+      "url_imagen": "null"
+    },
+    { "squad_id": "00f74a56", "squad": "Liverpool", "url_imagen": "null" },
+    {
+      "squad_id": "9ce68f8a",
+      "squad": "Manchester City",
+      "url_imagen": "null"
+    },
+    { "squad_id": "0bbd83f6", "squad": "Manchester Utd", "url_imagen": "null" },
+    { "squad_id": "5d020380", "squad": "Reading", "url_imagen": "null" },
+    { "squad_id": "e8e4577c", "squad": "Tottenham", "url_imagen": "null" },
+    { "squad_id": "52d65cea", "squad": "West Ham", "url_imagen": "null" },
+    { "squad_id": "69dee2b0", "squad": "Bordeaux", "url_imagen": "null" },
+    { "squad_id": "68f9fd31", "squad": "Dijon", "url_imagen": "null" },
+    { "squad_id": "4fcc2996", "squad": "Fleury", "url_imagen": "null" },
+    { "squad_id": "abc4f6d7", "squad": "Guingamp", "url_imagen": "null" },
+    { "squad_id": "c57b7254", "squad": "Le Havre", "url_imagen": "null" },
+    { "squad_id": "7f2012ad", "squad": "Lyon", "url_imagen": "null" },
+    { "squad_id": "7bbdea71", "squad": "Montpellier", "url_imagen": "null" },
+    { "squad_id": "28d9b675", "squad": "Paris FC", "url_imagen": "null" },
+    { "squad_id": "80595417", "squad": "Paris S-G", "url_imagen": "null" },
+    { "squad_id": "700c41b4", "squad": "Rodez", "url_imagen": "null" },
+    { "squad_id": "b54d31b3", "squad": "Soyaux", "url_imagen": "null" },
+    { "squad_id": "e3696882", "squad": "Stade de Reims", "url_imagen": "null" },
+    { "squad_id": "51ec22be", "squad": "Bayern Munich", "url_imagen": "null" },
+    { "squad_id": "97b7c0e8", "squad": "E. Frankfurt", "url_imagen": "null" },
+    { "squad_id": "becc1dd0", "squad": "Essen", "url_imagen": "null" },
+    { "squad_id": "b4de690d", "squad": "Freiburg", "url_imagen": "null" },
+    { "squad_id": "87705c62", "squad": "Hoffenheim", "url_imagen": "null" },
+    { "squad_id": "88ddc98e", "squad": "Köln", "url_imagen": "null" },
+    { "squad_id": "c6d4860a", "squad": "Leverkusen", "url_imagen": "null" },
+    { "squad_id": "0580d9a9", "squad": "MSV Duisburg", "url_imagen": "null" },
+    { "squad_id": "4ed1418c", "squad": "SV Meppen", "url_imagen": "null" },
+    {
+      "squad_id": "de550500",
+      "squad": "Turbine Potsdam",
+      "url_imagen": "null"
+    },
+    { "squad_id": "7adbf480", "squad": "Werder Bremen", "url_imagen": "null" },
+    { "squad_id": "a1393014", "squad": "Wolfsburg", "url_imagen": "null" },
+    { "squad_id": "54da9a57", "squad": "AC Milan", "url_imagen": "null" },
+    { "squad_id": "02f8d026", "squad": "AS Roma", "url_imagen": "null" },
+    {
+      "squad_id": "9f18ced7",
+      "squad": "ASD Calcio Pomigliano",
+      "url_imagen": "null"
+    },
+    { "squad_id": "756c9acb", "squad": "FC Como Women", "url_imagen": "null" },
+    { "squad_id": "c99ff6e5", "squad": "Fiorentina", "url_imagen": "null" },
+    { "squad_id": "06d05f19", "squad": "Internazionale", "url_imagen": "null" },
+    { "squad_id": "613577b8", "squad": "Juventus", "url_imagen": "null" },
+    {
+      "squad_id": "f7d05cb5",
+      "squad": "Parma Calcio 1913",
+      "url_imagen": "null"
+    },
+    { "squad_id": "a8e83f23", "squad": "Sassuolo", "url_imagen": "null" },
+    { "squad_id": "58e367c3", "squad": "UC Sampdoria", "url_imagen": "null" }
   ]
 }
